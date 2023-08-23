@@ -1,0 +1,25 @@
+a{
+    color : yellow;
+    font-weight: bold;
+}
+body{
+    background-color: #582f0e;
+}
+h1{
+    padding-top: 20px;
+    color :lightblue;
+    padding-bottom: 0px;
+}
+p,ul,ol,#mya1{
+    color: white;
+    font-weight: 0px;
+}
+#mydiv1{
+    border-bottom: 1px solid white;
+}
+#myp1{
+    font-style: italic; 
+}
+h3{
+    color :lightblue; 
+}
