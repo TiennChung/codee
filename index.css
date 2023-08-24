@@ -1,0 +1,30 @@
+h2{
+    background-color: #ade8f4;
+    color: blue;
+}
+#mya1,#mytd{
+    color: blue;
+    font-weight: bolder;
+}
+table, th, td {
+    border:1px solid black;
+  }
+
+#myid2{
+    text-align: center;
+    border: none;
+}
+#mya{
+    font-style: italic;
+}
+.a{
+    font-weight: bolder;
+}
+#mytd1{
+    color: blue;
+}
+#anh{
+    position: absolute;
+    padding-left: 1300px;
+    justify-content: right;
+}
