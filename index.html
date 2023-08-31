@@ -3,81 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài tập</title>
-    <link rel = "stylesheet" href ="index.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1 id ="myh1">Dog D. Dog</h1>
-    <div id ="anh">
-        <img src="./aaa.png">
-    </div>
-    <div>
-        <h2>About</h2>
-        <p>Woof woof!</p>
-        <p>Hi, I'm Dog. I love <a id ="mya1">User interface Design.</a></p>
-    </div>
-    <div>
-        <h2>Courses</h2>
-        <p>Here are some courses I've taken:</p>
-    </div>
-    <div>
-        <table>
-            <thead>
-                <tr>
-                  <th>Course Number</th>
-                  <th>Course Title</th>
-                  <th>Semester Taken</th>
+    <!--ép các phần tử -->
+    <nav>
+        <a class = "mya1">Home</a>
+        <a class = "mya1">Products</a>
+        <a class = "mya1">Services</a>
+        <a class = "mya1">About</a>
+        <a class = "mya1">Contact</a>
+    </nav>   
+     <h1>Web Developers, Inc.</h1>
+
+     <div id = "baitap">
+        <!--bảng dọc-->
+        <div class ="left">
+            <table class ="tablee">
+                <th class = "th1">Quicklinks 1</th>
+                <tr><td>Link 1</td></tr>
+                <tr><td>Link 2</td></tr>
+                <tr><td>Link 3</td></tr>
+                <tr><td>Link 4</td></tr>
+                <tr><td>Link 5</td></tr>
+            </table >
+            <table class ="tablee">
+                <th class = "th1">Quicklinks 2</th>
+                <tr><td>Link 1</td></tr>
+                <tr><td>Link 2</td></tr>
+                <tr><td>Link 3</td></tr>
+                <tr><td>Link 4</td></tr>
+                <tr><td>Link 5</td></tr>
+            </table>
+            <table class ="tablee">
+                <th class = "th1">Quicklinks 3</th>
+                <tr><td>Link 1</td></tr>
+                <tr><td>Link 2</td></tr>
+                <tr><td>Link 3</td></tr>
+                <tr><td>Link 4</td></tr>
+                <tr><td>Link 5</td></tr>
+            </table>
+        </div>
+        <div class = "right">
+            <p>Welcome to our sample web page. We'll be disecting this page piece by piece to show you the best ways to use HTML, CSS and Javascript</p>
+            <table id = "table2">
+                <th id = "myth2">Create a Profile</th>
+                <tr class = "mytr1"><td>First Name: <input ></td></tr>
+                <tr class = "mytr1"><td>Last Name: <input ></td></tr>
+                <tr class = "mytr1">
+                    <td>Date of Birth: 
+                        <select name="month">
+                            <option value="1">month</option>
+                        </select>
+                        <select>
+                            <option value="1">day</option>
+                        </select>
+                        <select>
+                            <option value="1">year</option>
+                        </select>
+                    </td>
+                   
                 </tr>
-            </thead>
-            <tr>
-                <th id = "myid2"></th>
-                <th id = "myid2">For Credit</th>
-            </tr>
-            <tr>
-                <td id = "mytd">6.813</td>
-                <td id = "mytd1">User Interface Design</td>
-                <td id = "mytd1">Spring 2014</td>
-            </tr>
-            <tr>
-                <td id = "mytd">6.034</td>
-                <td>Artificial Intelligence</td>
-                <td>Fail 2013</td>
-            </tr>
-            <tr>
-                <td id = "mytd">6.006</td>
-                <td>Introduction to Algorthms</td>
-                <td>Fail 2013</td>
-            </tr>
-            <tr>
-                <th id = "myid2"></th>
-                <th id = "myid2">Listener</th>
-            </tr>
-            <tr>
-                <td id = "mytd">6.867</td>
-                <td>machine Learning</td>
-                <td>Fail 2013</td>
-            </tr>
-            <tr>
-                <td id = "mytd">6.830</td>
-                <td>Database Systems</td>
-                <td>Fail 2012</td>
-            </tr>
-        </table>
-        <div>
-            <h2>Interests</h2>
-            <p>I am interested 
-                <a id ="mya" class ="a">HCL</a>,
-                <a id ="mya"> memes</a>, and youtube videoS.
-            </p>
+                <tr class = "mytr1"><td>Gender: <input name ="gen"type = "radio">male  <input name = "gen"type = "radio">female</td></tr>
+                <tr class = "mytr1"><td><button>Save</button></td></tr>
+            </table>
+            <table id ="mytable3">
+                <tr> 
+                    <th class ="myth">First Name</th>
+                    <th class ="myth">last Name</hd>
+                    <th class ="myth">Date of Birth</th>
+                    <th class ="myth">Gender</th>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr >
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+                <tr class = "id2">
+                    <td class = "id3">John</td>
+                    <td class = "id3">Doe</td>
+                    <td class = "id3">2/15/1975</td>
+                    <td class = "id3">Male</td>
+                </tr>
+            </table>
         </div>
-        <div>
-            <h2>Pet Information</h2> 
-            <p>Would love to know what kinds od pets yor 'own' (you'll never own me). Submit below!</p>
-            <p>Name: <input></p>  
-            <p>Phylum: <input></p>
-            <p>Gender: <input></p>
-            <button>Submit</button>
-        </div>
-    </div>
+     </div>
 </body>
 </html>
